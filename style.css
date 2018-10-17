@@ -1,0 +1,110 @@
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+.felso_nav {
+  position: fixed;
+  top: 0%;
+  right: 0%;
+  margin:  20px;
+  display: flex;
+  line-height: 30px;
+
+
+}
+.dot {
+  height: 25px;
+  width: 25px;
+  background-color: #777;
+  border-radius: 50%;
+  margin: 5px;
+  float:left;
+}
+.resize {
+  width: 340px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20%;
+  margin-bottom: 10px;
+  display: block;
+}
+.searchbar{
+  width: 500px;
+  height: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+input.searchbar {
+  font-size: 20px;
+}
+.searchbar:focus {
+  outline-color: #777;
+}
+.mbutton1 {
+  position: fixed;
+  right: 50%;
+
+
+}
+.mbutton2 {
+  position: fixed;
+  left: 50%;
+
+}
+.bt{
+  margin: 3px;
+  margin-top: 10px;
+  background-color: #e9e9e9;
+  width: 160px;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 3px;
+  font-weight: bold;
+  color: #777;
+  border-width: 1px;
+
+}
+.bt:hover {
+  border-style:solid;
+  border-width: 1px;
+  border-color: #d3d3d3;
+  cursor: pointer;
+}
+.nyelvvalto{
+  text-align: center;
+  margin-top: 70px;
+}
+.also_nav{
+  position: fixed;
+  bottom: 0px;
+  background-color: #d3d3d3;
+  width: 100%;
+  height: 30px;
+  line-height: 30px;
+}
+.also_nav_jobb{
+  position: fixed;
+  bottom: 0px;
+  right: 0px;
+  height: 30px;
+}
+.location{
+  position: fixed;
+  bottom: 30px;
+  right: 0px;
+  height: 30px;
+  background-color: #d3d3d3;
+  width: 100%;
+  border-top-style: solid;
+  border-bottom-style: solid;
+  border-top-width: 1px;
+  border-bottom-width: 1px;
+  border-color: #c0c0c0;
+  line-height: 30px;
+}
